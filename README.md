@@ -1,5 +1,3 @@
-# NvChad-Config
-
 ## TOC
 
 
