@@ -24,27 +24,39 @@ This repository presents the following structure:
 ├── LICENSE
 ├── lua
 │   ├── core
+│   │   ├── bootstrap.lua
 │   │   ├── default_config.lua
 │   │   ├── init.lua
-│   │   ├── lazy_load.lua
 │   │   ├── mappings.lua
-│   │   ├── options.lua
 │   │   └── utils.lua
+│   ├── custom
+│   │   ├── chadrc.lua
+│   │   ├── configs
+│   │   │   ├── copilot.lua
+│   │   │   ├── lspconfig.lua
+│   │   │   ├── mason_lspconfig.lua
+│   │   │   ├── mason_null_ls.lua
+│   │   │   ├── null-ls.lua
+│   │   │   ├── nvim_ts_rainbow2.lua
+│   │   │   └── overrides.lua
+│   │   ├── highlights.lua
+│   │   ├── init.lua
+│   │   ├── mappings.lua
+│   │   └── plugins.lua
 │   └── plugins
 │       ├── configs
-│       │   ├── alpha.lua
 │       │   ├── cmp.lua
+│       │   ├── lazy_nvim.lua
 │       │   ├── lspconfig.lua
 │       │   ├── mason.lua
-│       │   ├── null-ls.lua
 │       │   ├── nvimtree.lua
-│       │   ├── nvterm.lua
 │       │   ├── others.lua
 │       │   ├── telescope.lua
 │       │   ├── treesitter.lua
 │       │   └── whichkey.lua
 │       └── init.lua
 └── README.md
+
 ```
 where:
 - the outer most `init.lua` calls the plugin manager [Packer.nvim](https://github.com/wbthomason/packer.nvim) which allows to install all the necessary plugins forseen in the basic NvChad config and some others I personally added;
