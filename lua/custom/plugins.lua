@@ -97,6 +97,7 @@ local plugins = {
                     "texlab",
                     "marksman",
                 },
+                automatic_installation = true,
             }
         end,
     },
