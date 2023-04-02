@@ -6,16 +6,16 @@
 - [Content](#content)
 <!--toc:end-->
 
-## Author
+## :art: Author :art:
 Owner : Guglielmi Matteo [@github](https://github.com/MatteoGuglielmi-tech)
 
-## What are we talking about?
+## :thinking_face: What are we talking about? :thinking_face:
 This repository contains a revisited and extended configuration of [NvChad](https://nvchad.com/), a **blazing fast Neovim config** providing solid default and a beautiful UI. The advantage in using NvChad is that it provides a set of
 feature that's exhaustive and sufficient for the majority of the users. It is also a good way to get close to the Vim world which is fascinating and pretty harsh at the same time. Indeed, all the Vim based editor, such as Neovim, LunarVim
 or AstroVim, require lots of configuration sometimes not that trivial. NvChad comes to the rescue and provides a **ready to use config with lots of features** (for the whole list, please refer to 
 [plugin list](https://github.com/NvChad/NvChad#plugins-list).  
 
-## Content
+## :magnifying_glass_tilted_right: Content :magnifying_glass_tilted_right:
 This repository presents the following structure:
 ```bash
 .
