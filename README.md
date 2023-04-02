@@ -2,7 +2,7 @@
 
 
 <!--toc:start-->
-- [:think: What are we talking about? :think:](#think-what-are-we-talking-about-think)
+- [:thinking: What are we talking about? :thinking:](#thinking-what-are-we-talking-about-thinking)
 - [:mag_right: Content :mag_right:](#magright-content-magright)
 <!--toc:end-->
 
