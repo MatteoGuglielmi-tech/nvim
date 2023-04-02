@@ -28,7 +28,7 @@ null_ls.setup({
 		diagnostics.gitlint,
 		diagnostics.cpplint,
 		diagnostics.shellcheck,
-		diagnostics.cspell.with({ filetypes = { "markdown", "tex", "tex" } }),
+		diagnostics.cspell.with({ filetypes = { "markdown", "tex" } }),
 
 		----------------------------------
 		---------- CODE ACTIONS ----------
