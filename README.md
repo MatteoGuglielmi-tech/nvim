@@ -15,7 +15,7 @@ feature that's exhaustive and sufficient for the majority of the users. It is al
 or AstroVim, require lots of configuration sometimes not that trivial. NvChad comes to the rescue and provides a **ready to use config with lots of features** (for the whole list, please refer to 
 [plugin list](https://github.com/NvChad/NvChad#plugins-list).  
 
-## :magnifying_glass_tilted_right: Content :magnifying_glass_tilted_right:
+## :mag_right: Content :mag_right:
 This repository presents the following structure:
 ```bash
 .
