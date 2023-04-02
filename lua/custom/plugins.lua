@@ -79,30 +79,6 @@ local plugins = {
     },
 
     {
-        "williamboman/mason-lspconfig.nvim",
-        dependencies = {
-            "williamboman/mason.nvim",
-            "neovim/nvim-lspconfig",
-        },
-        config = function()
-            require("mason-lspconfig").setup {
-
-                ensure_installed = {
-                    "lua-language-server",
-                    "stylua",
-                    "lua-language-server",
-                    "clangd",
-                    "pyright",
-                    "bashls",
-                    "texlab",
-                    "marksman",
-                },
-                automatic_installation = true,
-            }
-        end,
-    },
-
-    {
         "HiPhish/nvim-ts-rainbow2",
         lazy = false, -- important to have immediate effects
         dependencies = {
