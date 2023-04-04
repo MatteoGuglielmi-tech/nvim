@@ -5,6 +5,7 @@ M.disabled = {
     n = {
         ["<leader>e"] = "",
         ["<C-n>"] = "",
+        ["<Esc>"] = { ":noh <CR>", "clear highlights" },
     },
 }
 
