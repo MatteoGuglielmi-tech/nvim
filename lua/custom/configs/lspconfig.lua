@@ -52,6 +52,8 @@ lspconfig.pyright.setup {
                     variableTypes = true,
                     functionReturnTypes = true,
                 },
+                -- set pyright to remove unused imports when saving
+                autoImportCompletion = true,
             },
         },
     },
