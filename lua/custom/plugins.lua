@@ -103,6 +103,7 @@ local plugins = {
         "github/copilot.vim",
         lazy = false,
         config = function()
+            vim.api.nvim_set_keymap("i", "<C-y>", "copilot#Accept('<CR>')", { expr = true, silent = true })
             vim.g.copilot_fileypes = { xml = false, markdown = false, latex = false }
             vim.cmd [[ highlight CopilotSuggestions guifg=#555555 ctermfg=8]]
         end,
@@ -125,6 +126,11 @@ local plugins = {
         config = function()
             require("core.utils").load_mappings "gv"
         end,
+    },
+
+    {
+        "tpope/vim-surround",
+        lazy = false, -- important to start using the plugin immediately
     },
 }
 
