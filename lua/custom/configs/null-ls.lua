@@ -20,7 +20,10 @@ null_ls.setup {
         formatting.clang_format,
         formatting.stylua,
         formatting.black.with { extra_args = { "--fast", "--line-length=80" } },
-        formatting.isort,
+        -- formatting.isort,
+        formatting.reorder_python_imports,
+        -- import autoflake to remove all unused variables and imports
+        formatting.autoflake.with { extra_args = { "--in-place", "--remove-all-unused-imports" } },
 
         ----------------------------------
         ---------- LINTERS ---------------
@@ -29,12 +32,15 @@ null_ls.setup {
         diagnostics.cpplint,
         diagnostics.shellcheck,
         diagnostics.cspell.with { filetypes = { "markdown", "tex" } },
+        diagnostics.pydocstyle,
 
         ----------------------------------
         ---------- CODE ACTIONS ----------
         ----------------------------------
         code_actions.cspell,
         code_actions.shellcheck,
+        code_actions.refactoring,
+        code_actions.gitsigns,
     },
 
     -- configure format on save
