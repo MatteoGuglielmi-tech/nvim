@@ -68,6 +68,10 @@ M.fugitive = {
         ["<leader>gvd"] = { ":Gvdiffsplit<CR>", "Git vdiff" },
         ["<leader>gb"] = { ":Gblame<CR>", "Git blame" },
         ["<leader>gl"] = { ":Git pull<CR>", "Git pull" },
+        ["<leader>gc"] = { ":Gcommit<CR>", "Git commit" },
+        ["<leader>gs"] = { ":G<CR>", "Git status" },
+        ["<leader>gp"] = { ":Git push<CR>", "Git push" },
+        ["<leader>ga"] = { ":Gwrite<CR>", "Git add" },
     },
 }
 
